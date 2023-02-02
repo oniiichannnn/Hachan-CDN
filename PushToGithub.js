@@ -1,8 +1,7 @@
-const cp        = require("node:child_process")
-const readline  = require("readline")
-const cli       = require("cli-color")
-
-const pms       = require("../Hachan/pretty-ms/index.js");
+import cp        from "node:child_process";
+import readline  from "readline";
+import cli       from "cli-color";
+import pms        from "pretty-ms";
 
 
 const {

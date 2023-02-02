@@ -1,6 +1,10 @@
 {
   "dependencies": {
-    "cli-color": "^2.0.3"
+    "cli-color": "^2.0.3",
+    "pretty-ms": "^8.0.0"
   },
-  "scripts": { "push": "node pushtogithub" }
+  "scripts": {
+    "push": "node pushtogithub"
+  },
+  "type": "module"
 }
